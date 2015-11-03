@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2281ADAB1BE84B73005A14F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2281ADAA1BE84B73005A14F8 /* AppDelegate.swift */; };
+		2281ADAD1BE84B73005A14F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2281ADAC1BE84B73005A14F8 /* ViewController.swift */; };
+		2281ADB01BE84B73005A14F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2281ADAE1BE84B73005A14F8 /* Main.storyboard */; };
+		2281ADB31BE84B73005A14F8 /* Silver_Quill.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2281ADB11BE84B73005A14F8 /* Silver_Quill.xcdatamodeld */; };
+		2281ADB51BE84B73005A14F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2281ADB41BE84B73005A14F8 /* Assets.xcassets */; };
+		2281ADB81BE84B73005A14F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2281ADB61BE84B73005A14F8 /* LaunchScreen.storyboard */; };
+		2281ADC31BE84B73005A14F8 /* Silver_QuillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2281ADC21BE84B73005A14F8 /* Silver_QuillTests.swift */; };
+		2281ADCE1BE84B73005A14F8 /* Silver_QuillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2281ADCD1BE84B73005A14F8 /* Silver_QuillUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2281ADBF1BE84B73005A14F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2281AD9F1BE84B73005A14F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2281ADA61BE84B73005A14F8;
+			remoteInfo = "Silver Quill";
+		};
+		2281ADCA1BE84B73005A14F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2281AD9F1BE84B73005A14F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2281ADA61BE84B73005A14F8;
+			remoteInfo = "Silver Quill";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2281ADA71BE84B73005A14F8 /* Silver Quill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Silver Quill.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2281ADAA1BE84B73005A14F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2281ADAC1BE84B73005A14F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2281ADAF1BE84B73005A14F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2281ADB21BE84B73005A14F8 /* Silver_Quill.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Silver_Quill.xcdatamodel; sourceTree = "<group>"; };
+		2281ADB41BE84B73005A14F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2281ADB71BE84B73005A14F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2281ADB91BE84B73005A14F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2281ADBE1BE84B73005A14F8 /* Silver QuillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Silver QuillTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2281ADC21BE84B73005A14F8 /* Silver_QuillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Silver_QuillTests.swift; sourceTree = "<group>"; };
+		2281ADC41BE84B73005A14F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2281ADC91BE84B73005A14F8 /* Silver QuillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Silver QuillUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2281ADCD1BE84B73005A14F8 /* Silver_QuillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Silver_QuillUITests.swift; sourceTree = "<group>"; };
+		2281ADCF1BE84B73005A14F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2281ADA41BE84B73005A14F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2281ADBB1BE84B73005A14F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2281ADC61BE84B73005A14F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2281AD9E1BE84B73005A14F8 = {
+			isa = PBXGroup;
+			children = (
+				2281ADA91BE84B73005A14F8 /* Silver Quill */,
+				2281ADC11BE84B73005A14F8 /* Silver QuillTests */,
+				2281ADCC1BE84B73005A14F8 /* Silver QuillUITests */,
+				2281ADA81BE84B73005A14F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2281ADA81BE84B73005A14F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2281ADA71BE84B73005A14F8 /* Silver Quill.app */,
+				2281ADBE1BE84B73005A14F8 /* Silver QuillTests.xctest */,
+				2281ADC91BE84B73005A14F8 /* Silver QuillUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2281ADA91BE84B73005A14F8 /* Silver Quill */ = {
+			isa = PBXGroup;
+			children = (
+				2281ADAA1BE84B73005A14F8 /* AppDelegate.swift */,
+				2281ADAC1BE84B73005A14F8 /* ViewController.swift */,
+				2281ADAE1BE84B73005A14F8 /* Main.storyboard */,
+				2281ADB41BE84B73005A14F8 /* Assets.xcassets */,
+				2281ADB61BE84B73005A14F8 /* LaunchScreen.storyboard */,
+				2281ADB91BE84B73005A14F8 /* Info.plist */,
+				2281ADB11BE84B73005A14F8 /* Silver_Quill.xcdatamodeld */,
+			);
+			path = "Silver Quill";
+			sourceTree = "<group>";
+		};
+		2281ADC11BE84B73005A14F8 /* Silver QuillTests */ = {
+			isa = PBXGroup;
+			children = (
+				2281ADC21BE84B73005A14F8 /* Silver_QuillTests.swift */,
+				2281ADC41BE84B73005A14F8 /* Info.plist */,
+			);
+			path = "Silver QuillTests";
+			sourceTree = "<group>";
+		};
+		2281ADCC1BE84B73005A14F8 /* Silver QuillUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2281ADCD1BE84B73005A14F8 /* Silver_QuillUITests.swift */,
+				2281ADCF1BE84B73005A14F8 /* Info.plist */,
+			);
+			path = "Silver QuillUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2281ADA61BE84B73005A14F8 /* Silver Quill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2281ADD21BE84B73005A14F8 /* Build configuration list for PBXNativeTarget "Silver Quill" */;
+			buildPhases = (
+				2281ADA31BE84B73005A14F8 /* Sources */,
+				2281ADA41BE84B73005A14F8 /* Frameworks */,
+				2281ADA51BE84B73005A14F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Silver Quill";
+			productName = "Silver Quill";
+			productReference = 2281ADA71BE84B73005A14F8 /* Silver Quill.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2281ADBD1BE84B73005A14F8 /* Silver QuillTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2281ADD51BE84B73005A14F8 /* Build configuration list for PBXNativeTarget "Silver QuillTests" */;
+			buildPhases = (
+				2281ADBA1BE84B73005A14F8 /* Sources */,
+				2281ADBB1BE84B73005A14F8 /* Frameworks */,
+				2281ADBC1BE84B73005A14F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2281ADC01BE84B73005A14F8 /* PBXTargetDependency */,
+			);
+			name = "Silver QuillTests";
+			productName = "Silver QuillTests";
+			productReference = 2281ADBE1BE84B73005A14F8 /* Silver QuillTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2281ADC81BE84B73005A14F8 /* Silver QuillUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2281ADD81BE84B73005A14F8 /* Build configuration list for PBXNativeTarget "Silver QuillUITests" */;
+			buildPhases = (
+				2281ADC51BE84B73005A14F8 /* Sources */,
+				2281ADC61BE84B73005A14F8 /* Frameworks */,
+				2281ADC71BE84B73005A14F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2281ADCB1BE84B73005A14F8 /* PBXTargetDependency */,
+			);
+			name = "Silver QuillUITests";
+			productName = "Silver QuillUITests";
+			productReference = 2281ADC91BE84B73005A14F8 /* Silver QuillUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2281AD9F1BE84B73005A14F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "MBHS Smartphone Programming Club";
+				TargetAttributes = {
+					2281ADA61BE84B73005A14F8 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					2281ADBD1BE84B73005A14F8 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 2281ADA61BE84B73005A14F8;
+					};
+					2281ADC81BE84B73005A14F8 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 2281ADA61BE84B73005A14F8;
+					};
+				};
+			};
+			buildConfigurationList = 2281ADA21BE84B73005A14F8 /* Build configuration list for PBXProject "Silver Quill" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2281AD9E1BE84B73005A14F8;
+			productRefGroup = 2281ADA81BE84B73005A14F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2281ADA61BE84B73005A14F8 /* Silver Quill */,
+				2281ADBD1BE84B73005A14F8 /* Silver QuillTests */,
+				2281ADC81BE84B73005A14F8 /* Silver QuillUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2281ADA51BE84B73005A14F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2281ADB81BE84B73005A14F8 /* LaunchScreen.storyboard in Resources */,
+				2281ADB51BE84B73005A14F8 /* Assets.xcassets in Resources */,
+				2281ADB01BE84B73005A14F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2281ADBC1BE84B73005A14F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2281ADC71BE84B73005A14F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2281ADA31BE84B73005A14F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2281ADAD1BE84B73005A14F8 /* ViewController.swift in Sources */,
+				2281ADAB1BE84B73005A14F8 /* AppDelegate.swift in Sources */,
+				2281ADB31BE84B73005A14F8 /* Silver_Quill.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2281ADBA1BE84B73005A14F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2281ADC31BE84B73005A14F8 /* Silver_QuillTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2281ADC51BE84B73005A14F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2281ADCE1BE84B73005A14F8 /* Silver_QuillUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2281ADC01BE84B73005A14F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2281ADA61BE84B73005A14F8 /* Silver Quill */;
+			targetProxy = 2281ADBF1BE84B73005A14F8 /* PBXContainerItemProxy */;
+		};
+		2281ADCB1BE84B73005A14F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2281ADA61BE84B73005A14F8 /* Silver Quill */;
+			targetProxy = 2281ADCA1BE84B73005A14F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2281ADAE1BE84B73005A14F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2281ADAF1BE84B73005A14F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2281ADB61BE84B73005A14F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2281ADB71BE84B73005A14F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2281ADD01BE84B73005A14F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2281ADD11BE84B73005A14F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2281ADD31BE84B73005A14F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Silver Quill/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "spc.Silver-Quill";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2281ADD41BE84B73005A14F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Silver Quill/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "spc.Silver-Quill";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2281ADD61BE84B73005A14F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Silver QuillTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "spc.Silver-QuillTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Silver Quill.app/Silver Quill";
+			};
+			name = Debug;
+		};
+		2281ADD71BE84B73005A14F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Silver QuillTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "spc.Silver-QuillTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Silver Quill.app/Silver Quill";
+			};
+			name = Release;
+		};
+		2281ADD91BE84B73005A14F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Silver QuillUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "spc.Silver-QuillUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Silver Quill";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2281ADDA1BE84B73005A14F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Silver QuillUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "spc.Silver-QuillUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Silver Quill";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2281ADA21BE84B73005A14F8 /* Build configuration list for PBXProject "Silver Quill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2281ADD01BE84B73005A14F8 /* Debug */,
+				2281ADD11BE84B73005A14F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2281ADD21BE84B73005A14F8 /* Build configuration list for PBXNativeTarget "Silver Quill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2281ADD31BE84B73005A14F8 /* Debug */,
+				2281ADD41BE84B73005A14F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2281ADD51BE84B73005A14F8 /* Build configuration list for PBXNativeTarget "Silver QuillTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2281ADD61BE84B73005A14F8 /* Debug */,
+				2281ADD71BE84B73005A14F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2281ADD81BE84B73005A14F8 /* Build configuration list for PBXNativeTarget "Silver QuillUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2281ADD91BE84B73005A14F8 /* Debug */,
+				2281ADDA1BE84B73005A14F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2281ADB11BE84B73005A14F8 /* Silver_Quill.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2281ADB21BE84B73005A14F8 /* Silver_Quill.xcdatamodel */,
+			);
+			currentVersion = 2281ADB21BE84B73005A14F8 /* Silver_Quill.xcdatamodel */;
+			path = Silver_Quill.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2281AD9F1BE84B73005A14F8 /* Project object */;
+}
