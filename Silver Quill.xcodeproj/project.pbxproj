@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		221F35A11BE854ED00929A0C /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221F35A01BE854ED00929A0C /* Downloader.swift */; };
 		2281ADAB1BE84B73005A14F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2281ADAA1BE84B73005A14F8 /* AppDelegate.swift */; };
 		2281ADAD1BE84B73005A14F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2281ADAC1BE84B73005A14F8 /* ViewController.swift */; };
 		2281ADB01BE84B73005A14F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2281ADAE1BE84B73005A14F8 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		221F35A01BE854ED00929A0C /* Downloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
 		2281ADA71BE84B73005A14F8 /* Silver Quill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Silver Quill.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2281ADAA1BE84B73005A14F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2281ADAC1BE84B73005A14F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				2281ADAA1BE84B73005A14F8 /* AppDelegate.swift */,
 				2281ADAC1BE84B73005A14F8 /* ViewController.swift */,
 				2281ADAE1BE84B73005A14F8 /* Main.storyboard */,
+				221F35A01BE854ED00929A0C /* Downloader.swift */,
 				2281ADDF1BE84E3C005A14F8 /* IssueViewController.swift */,
 				2281ADB41BE84B73005A14F8 /* Assets.xcassets */,
 				2281ADB61BE84B73005A14F8 /* LaunchScreen.storyboard */,
@@ -271,6 +274,7 @@
 			files = (
 				2281ADE01BE84E3C005A14F8 /* IssueViewController.swift in Sources */,
 				2281ADAD1BE84B73005A14F8 /* ViewController.swift in Sources */,
+				221F35A11BE854ED00929A0C /* Downloader.swift in Sources */,
 				2281ADAB1BE84B73005A14F8 /* AppDelegate.swift in Sources */,
 				2281ADB31BE84B73005A14F8 /* Silver_Quill.xcdatamodeld in Sources */,
 				2281ADDE1BE84BF6005A14F8 /* MenuViewController.swift in Sources */,
@@ -502,6 +506,7 @@
 				2281ADD41BE84B73005A14F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2281ADD51BE84B73005A14F8 /* Build configuration list for PBXNativeTarget "Silver QuillTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +515,7 @@
 				2281ADD71BE84B73005A14F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2281ADD81BE84B73005A14F8 /* Build configuration list for PBXNativeTarget "Silver QuillUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +524,7 @@
 				2281ADDA1BE84B73005A14F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -14,7 +14,21 @@ class MenuViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        //Downloader.load(NSURL(string: "http://imgs.xkcd.com/comics/salvage.png")!)
+        let documents=NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0]
+        let writePath=documents.stringByAppendingString("/salvage.png")
+        if let data=NSData(contentsOfURL: NSURL(string: "https://www.dropbox.com/s/fmli0371eszrnd3/little%20rock.png?dl=0")!){
+            print(writePath)
+            data.writeToFile(writePath, atomically: true)
+            print("it worked")
+        }
+        
+        if let url=NSBundle.mainBundle().pathForResource("salvage", ofType: "png"){
+            print(url)
+        } else {
+            print("...or not")
+        }
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 

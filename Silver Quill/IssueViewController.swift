@@ -15,6 +15,7 @@ class IssueViewController: UIViewController {
         super.viewDidLoad()
         let path=NSBundle.mainBundle().pathForResource("Linguistics34", ofType: "pdf")
         pdfViewer.loadRequest(NSURLRequest(URL: NSURL(fileURLWithPath: path!)))
+        //view.sendSubviewToBack(pdfViewer)
         //print("done")
     }
 
