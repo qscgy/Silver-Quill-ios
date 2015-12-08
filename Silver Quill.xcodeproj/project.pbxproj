@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		221F35A11BE854ED00929A0C /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221F35A01BE854ED00929A0C /* Downloader.swift */; };
+		226E82E41C16563900469B37 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226E82D71C16562E00469B37 /* Alamofire.framework */; };
+		226E82E51C16563900469B37 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 226E82D71C16562E00469B37 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		226E82EA1C165D9000469B37 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226E82E91C165D9000469B37 /* ImageViewController.swift */; };
+		226E82F01C1667B100469B37 /* Issue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226E82EF1C1667B100469B37 /* Issue.swift */; };
 		2281ADAB1BE84B73005A14F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2281ADAA1BE84B73005A14F8 /* AppDelegate.swift */; };
 		2281ADAD1BE84B73005A14F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2281ADAC1BE84B73005A14F8 /* ViewController.swift */; };
 		2281ADB01BE84B73005A14F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2281ADAE1BE84B73005A14F8 /* Main.storyboard */; };
@@ -22,6 +25,62 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		226E82D61C16562E00469B37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 226E82CC1C16562E00469B37 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		226E82D81C16562E00469B37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 226E82CC1C16562E00469B37 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		226E82DA1C16562E00469B37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 226E82CC1C16562E00469B37 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		226E82DC1C16562E00469B37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 226E82CC1C16562E00469B37 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
+		226E82DE1C16562E00469B37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 226E82CC1C16562E00469B37 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		226E82E01C16562E00469B37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 226E82CC1C16562E00469B37 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		226E82E21C16562E00469B37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 226E82CC1C16562E00469B37 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		226E82E61C16563900469B37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 226E82CC1C16562E00469B37 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
 		2281ADBF1BE84B73005A14F8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2281AD9F1BE84B73005A14F8 /* Project object */;
@@ -38,8 +97,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		226E82E81C16563900469B37 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				226E82E51C16563900469B37 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		221F35A01BE854ED00929A0C /* Downloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		226E82CC1C16562E00469B37 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
+		226E82E91C165D9000469B37 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		226E82EF1C1667B100469B37 /* Issue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Issue.swift; sourceTree = "<group>"; };
 		2281ADA71BE84B73005A14F8 /* Silver Quill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Silver Quill.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2281ADAA1BE84B73005A14F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2281ADAC1BE84B73005A14F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				226E82E41C16563900469B37 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,9 +160,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		226E82CD1C16562E00469B37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				226E82D71C16562E00469B37 /* Alamofire.framework */,
+				226E82D91C16562E00469B37 /* Alamofire iOS Tests.xctest */,
+				226E82DB1C16562E00469B37 /* Alamofire.framework */,
+				226E82DD1C16562E00469B37 /* Alamofire OSX Tests.xctest */,
+				226E82DF1C16562E00469B37 /* Alamofire.framework */,
+				226E82E11C16562E00469B37 /* Alamofire tvOS Tests.xctest */,
+				226E82E31C16562E00469B37 /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		2281AD9E1BE84B73005A14F8 = {
 			isa = PBXGroup;
 			children = (
+				226E82CC1C16562E00469B37 /* Alamofire.xcodeproj */,
 				2281ADA91BE84B73005A14F8 /* Silver Quill */,
 				2281ADC11BE84B73005A14F8 /* Silver QuillTests */,
 				2281ADCC1BE84B73005A14F8 /* Silver QuillUITests */,
@@ -111,13 +202,14 @@
 				2281ADAA1BE84B73005A14F8 /* AppDelegate.swift */,
 				2281ADAC1BE84B73005A14F8 /* ViewController.swift */,
 				2281ADAE1BE84B73005A14F8 /* Main.storyboard */,
-				221F35A01BE854ED00929A0C /* Downloader.swift */,
+				226E82E91C165D9000469B37 /* ImageViewController.swift */,
 				2281ADDF1BE84E3C005A14F8 /* IssueViewController.swift */,
 				2281ADB41BE84B73005A14F8 /* Assets.xcassets */,
 				2281ADB61BE84B73005A14F8 /* LaunchScreen.storyboard */,
 				2281ADE11BE84EC5005A14F8 /* Linguistics34.pdf */,
 				2281ADB91BE84B73005A14F8 /* Info.plist */,
 				2281ADB11BE84B73005A14F8 /* Silver_Quill.xcdatamodeld */,
+				226E82EF1C1667B100469B37 /* Issue.swift */,
 			);
 			path = "Silver Quill";
 			sourceTree = "<group>";
@@ -150,10 +242,12 @@
 				2281ADA31BE84B73005A14F8 /* Sources */,
 				2281ADA41BE84B73005A14F8 /* Frameworks */,
 				2281ADA51BE84B73005A14F8 /* Resources */,
+				226E82E81C16563900469B37 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				226E82E71C16563900469B37 /* PBXTargetDependency */,
 			);
 			name = "Silver Quill";
 			productName = "Silver Quill";
@@ -230,6 +324,12 @@
 			mainGroup = 2281AD9E1BE84B73005A14F8;
 			productRefGroup = 2281ADA81BE84B73005A14F8 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 226E82CD1C16562E00469B37 /* Products */;
+					ProjectRef = 226E82CC1C16562E00469B37 /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				2281ADA61BE84B73005A14F8 /* Silver Quill */,
@@ -238,6 +338,58 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		226E82D71C16562E00469B37 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 226E82D61C16562E00469B37 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		226E82D91C16562E00469B37 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 226E82D81C16562E00469B37 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		226E82DB1C16562E00469B37 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 226E82DA1C16562E00469B37 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		226E82DD1C16562E00469B37 /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = 226E82DC1C16562E00469B37 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		226E82DF1C16562E00469B37 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 226E82DE1C16562E00469B37 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		226E82E11C16562E00469B37 /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 226E82E01C16562E00469B37 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		226E82E31C16562E00469B37 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 226E82E21C16562E00469B37 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2281ADA51BE84B73005A14F8 /* Resources */ = {
@@ -273,10 +425,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2281ADE01BE84E3C005A14F8 /* IssueViewController.swift in Sources */,
+				226E82F01C1667B100469B37 /* Issue.swift in Sources */,
 				2281ADAD1BE84B73005A14F8 /* ViewController.swift in Sources */,
-				221F35A11BE854ED00929A0C /* Downloader.swift in Sources */,
 				2281ADAB1BE84B73005A14F8 /* AppDelegate.swift in Sources */,
 				2281ADB31BE84B73005A14F8 /* Silver_Quill.xcdatamodeld in Sources */,
+				226E82EA1C165D9000469B37 /* ImageViewController.swift in Sources */,
 				2281ADDE1BE84BF6005A14F8 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +453,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		226E82E71C16563900469B37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 226E82E61C16563900469B37 /* PBXContainerItemProxy */;
+		};
 		2281ADC01BE84B73005A14F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2281ADA61BE84B73005A14F8 /* Silver Quill */;
@@ -419,6 +577,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Silver Quill/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -431,6 +590,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Silver Quill/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

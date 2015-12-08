@@ -10,25 +10,30 @@ import UIKit
 
 class MenuViewController: UITableViewController {
     
-    var issues=["Rhapsody","Terra Incognita"]
+    var issues:[String]=[]
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        //Downloader.load(NSURL(string: "http://imgs.xkcd.com/comics/salvage.png")!)
-        let documents=NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0]
-        let writePath=documents.stringByAppendingString("/salvage.png")
-        if let data=NSData(contentsOfURL: NSURL(string: "https://www.dropbox.com/s/fmli0371eszrnd3/little%20rock.png?dl=0")!){
-            print(writePath)
-            data.writeToFile(writePath, atomically: true)
-            print("it worked")
-        }
         
-        if let url=NSBundle.mainBundle().pathForResource("salvage", ofType: "png"){
-            print(url)
-        } else {
-            print("...or not")
+        let endpoint = NSURL(string: "https://silverquill.mbhs.edu/magazines/silverquill.json")
+        let data = NSData(contentsOfURL: endpoint!)
+        do{
+        let json: NSDictionary = try NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers) as! NSDictionary
+        if let rawIssues = json["issues"] as? NSArray {
+            for issue in rawIssues{
+                print(issue["title"])
+                let title=issue["title"] as! String
+                let id=issue["uniqueID"] as! String
+                //let date=issue["date"] as! String
+                //let cover=issue["coverURL"] as! String
+                //let content=issue["contentURL"] as! String
+                //let issueObj=Issue(id: id, title: title, date: date, cover: cover, content: content)
+                issues.append(title)
+            }
         }
-        
+        }catch{
+            print("Oops. Something went wrong reading the JSON.")
+        }
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -98,7 +103,7 @@ class MenuViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -106,6 +111,4 @@ class MenuViewController: UITableViewController {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
-    */
-
 }

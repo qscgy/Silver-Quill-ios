@@ -7,14 +7,38 @@
 //
 
 import UIKit
+import Alamofire
 
 class IssueViewController: UIViewController {
 
     @IBOutlet var pdfViewer: UIWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        let path=NSBundle.mainBundle().pathForResource("Linguistics34", ofType: "pdf")
-        pdfViewer.loadRequest(NSURLRequest(URL: NSURL(fileURLWithPath: path!)))
+        let destination=Alamofire.Request.suggestedDownloadDestination(directory: .DocumentDirectory, domain: .UserDomainMask)
+        let manager = NSFileManager.defaultManager()
+        let url=manager.URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)[0]
+        let path=url.URLByAppendingPathComponent("abstraction.pdf").path!
+        if !(manager.fileExistsAtPath(path)) {
+            Alamofire.download(.GET, "https://silverquill.mbhs.edu/magazines/abstraction/abstraction.pdf", destination: destination)
+                .progress { bytesRead, totalBytesRead, totalBytesExpectedToRead in
+                    //print(totalBytesRead)
+                    
+                    // This closure is NOT called on the main queue for performance
+                    // reasons. To update your ui, dispatch to the main queue.
+                    dispatch_async(dispatch_get_main_queue()) {
+                        print("Total bytes read on main queue: \(totalBytesRead)")
+                    }
+                }
+                .response { _, _, _, error in
+                    if let error = error {
+                        print("Failed with error: \(error)")
+                    } else {
+                        print("Downloaded file successfully")
+                    }
+            }
+
+        }
+        pdfViewer.loadRequest(NSURLRequest(URL: url.URLByAppendingPathComponent("abstraction.pdf")))
         //view.sendSubviewToBack(pdfViewer)
         //print("done")
     }
